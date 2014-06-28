@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>Consultorio Google</title>
+
+        <meta charset="UTF-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+        <meta name="description" content="Consultorio" />
+
+        <meta name="keywords" content="" />
+
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico">
+ 
+        <link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.8.16.custom.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+
+		<script id="fullscreenTmpl" type="text/x-jquery-tmpl">
+
+			<div id="wd-overlay" class="wd-overlay">
+
+				<div class="wd-element">
+
+					<span class="wd-close">x close</span>
+                    <div class="wd-nav">
+
+                        <span class="wd-nav-next">Next</span>
+
+                        <span class="wd-nav-prev">Previous</span>
+
+                    </div>
+
+					<img src="${source}" />
+
+					<div class="wd-info">
+
+						<div class="wd-info-title">
+
+							{{html title}}
+
+						</div>
+
+						<div class="wd-info-desc">
+
+							{{html description}}
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</script>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="header">
+
+                				
+				<div class="clr">
+</div>
+
+            </div>
+            <h1>Consultorio Medico<span>Google</span></h1>
+
+
+			</div>
+
+            <div id="wd-wrapper" class="wd-wrapper">
+
+				<div class="wd-slider"></div>
+
+				<div class="wd-scroll-wrapper">
+
+					<div class="wd-container">
+
+						<div class="wd-element">
+
+							<img src="images/1.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. L&aacutezaro O. Bravo</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+<p>Licenciado y doctor en Medicina y Cirug&iacutea y catedr&aacutetico de Cirug&iacutea. Actual Director del Departamento de Cirug&iacutea General</p>
+
+<a href="registro.html"><p>Agenda tu cita</p></a>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="wd-element">
+
+							<img src="images/2.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Alejandro Miranda - Sousa</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="wd-element">
+
+							<img src="images/3.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Nicholas Franco</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/4.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dra. Mar&iacutea Bendeck</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/5.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Alejandro Mart&iacutenez</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/6.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Javier Lugo</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/7.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dra. Jaqueline Romero</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/8.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Santiago Chahwan</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/9.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Carlos Cuello</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/10.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Narmo Ort&iacutez</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/11.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dra. Patricia Primero</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/12.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Max Kamerman</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/13.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dra.  Dolores Yamila Delgado</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/14.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Iv&aacuten Terrero</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/15.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Michael F. D'Angelo</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/16.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dra. Ana Mar&iacutea Ferrari</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/17.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dra. Sofia Ionescu</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/18.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Axel Ru&iacutez</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+						<div class="wd-element">
+
+							<img src="images/19.jpg" />
+
+
+							<div class="wd-info">
+
+								<div class="wd-info-title">
+
+									<h2>Dr. Sergio Vignali</h2>
+								</div>
+
+
+								<div class="wd-info-desc">
+
+
+
+
+<p>INFORMACI&OacuteN Y UBICACI&OACUTEN</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+			
+                        
+					</div>
+
+				</div>
+
+			</div>
+
+        </div>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+		<script type="text/javascript" src="js/jquery.sinusoid.js"></script>
+
+        <script type="text/javascript">
+			$(function() {
+			
+				$('#wd-wrapper').sinusoid({
+					minImgW				: 80,
+					maxImgW				: 130,
+					minImgAngle			: -20,
+					maxImgAngle			: 20,
+					leftFactor			: 60,
+					sinusoidFunction 	: {
+						A	: 70,
+						T 	: 1700,
+						P	: 0
+					}
+				});
+			
+			});
+		</script>
+    </body>
+</html>	
